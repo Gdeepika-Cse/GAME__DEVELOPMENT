@@ -26,14 +26,19 @@ Step 7 : Stop the program.
 # Program :
 
 #include<graphics.h>
+
 #include<stdio.h>
+
 #include<conio.h>
+
 #include<math.h>
+
 #include<stdlib.h>
 
 int main() 
 {
     int gd = DETECT, gm, i, j, k, ch;
+    
     float tx, ty, x, y, ang, n, temp;
     float a[5][3], si, co, b[5][3], c[5][3];
 
