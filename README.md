@@ -2,7 +2,6 @@
 # REG.NO: 212224040060
 
 ## EX 5 : TWO DIMENSIONALTRANSFORMATION 
-
 # AIM
 To write a c program to implement 2D transformation of image.
 
@@ -291,9 +290,7 @@ int main()
     }
 }
 
-
-**Output :**
-
+# Output :
 
 ![image](https://github.com/user-attachments/assets/10181c05-4881-428e-b49e-b0a454861ce0)
 ![image](https://github.com/user-attachments/assets/8b1b4ca5-4ed4-4616-b012-34bfc84bb99a)
@@ -304,6 +301,5 @@ int main()
 ![image](https://github.com/user-attachments/assets/ce538ea6-2d75-4e97-8960-caeea13a7e00)
 ![image](https://github.com/user-attachments/assets/7645c69c-88a3-419f-9b68-cf8c79cce59e)
 
-
-**Result :**
+# Result :
       Successfully completed a C program to implement 2D transformation of image.
