@@ -1,11 +1,12 @@
+# NAME: DEEPIKA G
+# REG.NO: 212224040060
+
 ## EX 5 : TWO DIMENSIONALTRANSFORMATION 
 
-**AIM**
-
+# AIM
 To write a c program to implement 2D transformation of image.
 
-
-**ALGORITHM**
+# ALGORITHM
 
 Step 1:Start the program.
 
@@ -22,7 +23,7 @@ Step 6 : Draw the image.
 Step 7 : Stop the program.
 
 
-**Program :**
+# Program :
 
 #include<graphics.h>
 #include<stdio.h>
@@ -50,22 +51,34 @@ int main()
         cleardevice();
         gotoxy(1,8);
         printf("\n\t******** Program to perform 2-D Transformations ********");
+        
         printf("\n\t\t\t 1. Accept the polygon");
+        
         printf("\n\t\t\t 2. Perform translation");
+        
         printf("\n\t\t\t 3. Perform scaling");
+        
         printf("\n\t\t\t 4. Perform rotation");
+        
         printf("\n\t\t\t 5. Perform reflection");
+        
         printf("\n\t\t\t 6. Perform shearing");
+        
         printf("\n\t\t\t 7. Exit");
+        
         printf("\n\t\t\t Enter your choice::");
+        
         scanf("%d",&ch);
         
         switch(ch)
         {
             case 1: 
                 cleardevice();
+                
                 gotoxy(1,1);
+                
                 printf("\n\tEnter no of points: ");
+                
                 scanf("%f",&n);
                 
                 for(i=0;i<n;i++)
